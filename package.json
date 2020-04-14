@@ -1,0 +1,31 @@
+{
+  "name": "nuxtjs-dashboard",
+  "version": "1.0.0",
+  "description": "NuxtJs Dashboard",
+  "author": "Jimmy Jouanne",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "heroku-postbuild": "npm run build",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@mdi/font": "^3.5.95",
+    "@nuxtjs/axios": "^5.3.6",
+    "cross-env": "^5.2.0",
+    "eslint": "^6.8.0",
+    "nuxt": "^2.5.1",
+    "vue-chartist": "^2.2.0",
+    "vuetify": "^1.5.5",
+    "vuetify-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "nodemon": "^1.18.9",
+    "sass-loader": "^7.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
