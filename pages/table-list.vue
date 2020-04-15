@@ -84,7 +84,7 @@
 
 <script>
   import materialCard from '~/components/material/AppCard'
-  import EmployeeService from '@/services/EmployeeService.js'
+  import EmployeeService from '~/services/EmployeeService.js'
 
   export default {
     layout: 'dashboard',

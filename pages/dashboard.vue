@@ -362,7 +362,7 @@
   import materialCard from '~/components/material/AppCard'
   import materialChartCard from '~/components/material/AppChartCard'
   import materialStatsCard from '~/components/material/AppStatsCard'
-  import EmployeeService from '@/services/EmployeeService.js'
+  import EmployeeService from '~/services/EmployeeService.js'
 
   export default {
     layout: 'dashboard',
@@ -417,7 +417,7 @@
         };*/
       });
     },
-    async asyncData({ $axios, error }) {
+    async asyncData({ error }) {
       try {
         const items = await EmployeeService.getItems()
         const headers = await EmployeeService.getHeaders()
