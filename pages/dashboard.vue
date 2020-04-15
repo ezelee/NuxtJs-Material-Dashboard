@@ -162,8 +162,8 @@
           text="New employees on 15th April, 2020"
         >
           <v-data-table
-            :headers="headers2"
-            :items="items2"
+            :headers="headers"
+            :items="items"
             hide-actions
           >
             <template
