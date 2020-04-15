@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "jdoe",
+      "email": "jdoe@sancorseguros.com",
+      "firstname": "John",
+      "lastname": "Doe",
+      "function": "DEVELOPPER",
+      "description": "My imagination is my own limit. Trust on you and open your spirit beyond the sky.",
+      "citation": "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world."
+    },
+    {
+      "id": 2,
+      "username": "eze",
+      "email": "eze@sancorseguros.com",
+      "firstname": "Eze",
+      "lastname": "Lee",
+      "function": "DEVELOPPER",
+      "description": "My imagination is my own limit. Trust on you and open your spirit beyond the sky.",
+      "citation": "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world."
+    }
+  ]
+}

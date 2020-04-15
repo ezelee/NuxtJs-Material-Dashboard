@@ -31,10 +31,10 @@
       >
         <v-text-field
           v-if="responsiveInput"
-          class="mr-4 mt-2 purple-input"
+          class="mr-4 mt-2 info-input"
           label="Search..."
           hide-details
-          color="purple"
+          color="info"
         />
         <nuxt-link
           v-ripple

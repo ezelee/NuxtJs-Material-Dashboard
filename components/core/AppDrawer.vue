@@ -42,7 +42,7 @@
             <v-text-field
               class="purple-input search-input"
               label="Search..."
-              color="purple"
+              color="info"
             />
           </v-list-tile>
           <v-list-tile

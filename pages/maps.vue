@@ -7,7 +7,7 @@
           id="gmap_canvas"
           width="100%"
           height="100%"
-          src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Paris%2C%20France+(Titre)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"
+          src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Sunchales+(Titre)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
           frameborder="0"
           scrolling="no"
           marginheight="0"
