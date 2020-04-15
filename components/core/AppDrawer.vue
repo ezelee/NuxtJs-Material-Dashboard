@@ -19,7 +19,7 @@
         column
       >
         <v-list dense>
-          <v-list-tile avatar to="/">
+          <v-list-tile avatar to="/dashboard">
           <v-list-tile-avatar
             color="white"
           >
