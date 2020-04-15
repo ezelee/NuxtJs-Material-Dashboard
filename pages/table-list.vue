@@ -84,70 +84,27 @@
 
 <script>
   import materialCard from '~/components/material/AppCard'
+  import EmployeeService from '@/services/EmployeeService.js'
 
   export default {
     layout: 'dashboard',
     components: {
       materialCard
     },
-    data: () => ({
-    headers: [
-      {
-        sortable: false,
-        text: 'Name',
-        value: 'name'
-      },
-      {
-        sortable: false,
-        text: 'Country',
-        value: 'country'
-      },
-      {
-        sortable: false,
-        text: 'City',
-        value: 'city'
-      },
-      {
-        sortable: false,
-        text: 'Salary',
-        value: 'salary',
-        align: 'right'
+    async asyncData({ $axios, error }) {
+      try {
+        const items = await EmployeeService.getItems()
+        const headers = await EmployeeService.getHeaders()
+        return {
+          items: items.data,
+          headers: headers.data
+        }
+      } catch (e) {
+        error({
+          statusCode: 503,
+          message: 'Unable to fetch employees at this time. Please try again.'
+        })
       }
-    ],
-    items: [
-      {
-        name: 'Dakota Rice',
-        country: 'Niger',
-        city: 'Oud-Tunrhout',
-        salary: '$35,738'
-      },
-      {
-        name: 'Minerva Hooper',
-        country: 'Curaçao',
-        city: 'Sinaai-Waas',
-        salary: '$23,738'
-      }, {
-        name: 'Sage Rodriguez',
-        country: 'Netherlands',
-        city: 'Overland Park',
-        salary: '$56,142'
-      }, {
-        name: 'Philip Chanley',
-        country: 'Korea, South',
-        city: 'Gloucester',
-        salary: '$38,735'
-      }, {
-        name: 'Doris Greene',
-        country: 'Malawi',
-        city: 'Feldkirchen in Kārnten',
-        salary: '$63,542'
-      }, {
-        name: 'Mason Porter',
-        country: 'Chile',
-        city: 'Gloucester',
-        salary: '$78,615'
-      }
-    ]
-  })
+    }
   }
 </script>
