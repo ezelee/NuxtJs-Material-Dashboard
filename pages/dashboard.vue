@@ -236,7 +236,7 @@
                     />
                   </v-list-tile-action>
                   <v-list-tile-title>
-                    Sign contract for "What are conference organized afraid of?"
+                    Sign contract for "What are conference?"
                   </v-list-tile-title>
                   <div class="d-flex">
                     <v-tooltip
@@ -277,7 +277,7 @@
                     />
                   </v-list-tile-action>
                   <v-list-tile-title>
-                    Lines From Great Russian Literature? Or E-mails From My Boss?
+                    Lines From Great Russian Literature?
                   </v-list-tile-title>
                   <div class="d-flex">
                     <v-tooltip
@@ -317,7 +317,7 @@
                     />
                   </v-list-tile-action>
                   <v-list-tile-title>
-                    Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
+                    Flooded: One year later, assessing what was lost
                   </v-list-tile-title>
                   <div class="d-flex">
                     <v-tooltip
