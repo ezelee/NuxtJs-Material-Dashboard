@@ -18,7 +18,7 @@
     "eslint": "^8.8.0",
     "nuxt": "^2.15.8",
     "vue-chartist": "^3.0.0",
-    "vuetify": "^2.6.3",
+    "vuetify": "^2.6.10",
     "vuetify-loader": "^1.7.3"
   },
   "devDependencies": {
