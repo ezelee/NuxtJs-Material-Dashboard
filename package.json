@@ -16,7 +16,7 @@
     "@nuxtjs/axios": "^5.13.6",
     "cross-env": "^7.0.3",
     "eslint": "^8.8.0",
-    "nuxt": "^2.15.8",
+    "nuxt": "^3.0.0",
     "vue-chartist": "^3.0.0",
     "vuetify": "^2.6.3",
     "vuetify-loader": "^1.7.3"
